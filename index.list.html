@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student list & Biodata</title>
+    <style type="text/css">
+         * {
+            box-sizing: border-box;
+        }
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        .nav-bar a {
+            text-decoration: none;
+            color: black;
+            display: block;
+        }
+        .nav-bar > ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-bar > ul > li > a {
+            padding: 10px;
+            background: lightgrey;
+        }
+        .nav-bar > ul > li > a:hover {
+            background: #173459;
+            color: #f8f9f9;
+        }
+        .nav-bar .active {
+            background: #173459;
+            color: #f8f9f9;
+        }
+        .nav-bar li {
+            float: left;
+            width: 20%; /* 100% / 4 (number of li elements) = 25% */
+            text-align: center;
+            border-right: 1px solid #333; /* for the borders */
+        }
+        .nav-bar li:last-child {
+            border: none;
+        }
+    </style>
+    <style type="text/css">
+        table {
+            border-collapse: collapse;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        table, th, td {
+            border: 1px solid black;
+            text-align: center;
+        }
+        th, td {
+            padding: 5px;
+        }
+        /* select odd rows */
+        tr:nth-child(odd) {
+            background: #173459;
+        }
+        /* selects even rows */
+        tr:nth-child(even) {
+            background: #903c56;
+        }
+    </style>
+    <style type="text/css">
+        @font-face {
+            font-family: myFont;
+            src: url('C:/Users/RAZZ DIGITAL SERVICE/Documents/font/Myfont/CLARENDON.ttf');
+        }
+        /* you can now use your custom font */
+        h1 {
+            font-family: myFont;
+        }
+    </style>    
+</head>
+<body>
+    <div class="nav-bar">
+        <ul>
+            <li><a href="C:\Users\RAZZ DIGITAL SERVICE\Documents\index.html"> Home</a></li>
+            <li><a href="#"> Course</a></li>
+            <li><a href="C:\Users\RAZZ DIGITAL SERVICE\Documents\index.list.html" class="active"> Students List & Biodata </a></li>
+            <li><a href="C:\Users\RAZZ DIGITAL SERVICE\Documents\FORM\FUTURE WORLD FORM.pdf"> Download ENTRY FROM</a></li>
+            <li><a href="C:\Users\RAZZ DIGITAL SERVICE\Documents\index.achive.html"> Certificate Achievement List</a></li>
+        </ul>
+    </div>
+    <hr style="width:100%" color="orange" />
+    <hr style="width:100%" color="white" />
+    <hr style="width:100%" color="green" />
+<center><h1 style="color: rgb(10, 2, 2);"> <img src="C:\Users\RAZZ DIGITAL SERVICE\Documents\images\icons8-computer-100 (1).png" width="70px" />FUTURE WORLD </h1></center>
+<center>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th> Middle Name</th>
+                <th> Last Name</th>
+                <th> Gender</th>
+                <th> Address</th>
+                <th> Contact Number</th>
+                <th> Purchase Course</th>
+                <th> Students ID Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Anjar</td>
+                <td>      </td>
+                <td> Sarkar</td>
+                <td> Male</td>
+                <td> Khilpara</td>
+                <td> +91 9366672107/ +91 9612128422</td>
+                <th> Advance Computer</th>
+                <td> 87981449101</td>
+            </tr>
+            <tr>
+                <td> Tanmoy</td>
+                <td>       </td>
+                <td> Shill</td>
+                <td> Male</td>
+                <td> Baishnabirchar,po:- Jamjuri, Ps:- Kakraban</td>
+                <td> +91 8575792209</td>
+                <th> Expart Computer</th>
+                <td> 87981449102</td>
+            </tr>
+        </tbody>
+    </table>
+</center>
+</body>
+</html>
